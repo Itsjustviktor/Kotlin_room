@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequestActivity">
+
+    <TextView
+        android:id="@+id/compName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="24dp"
+        android:text="Name"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/imagen"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/compTelephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="PhoneNumber"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/imagen"
+        app:layout_constraintTop_toBottomOf="@+id/compName" />
+
+    <TextView
+        android:id="@+id/compProblem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:text="Problem"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/imagen"
+        app:layout_constraintTop_toBottomOf="@+id/compName" />
+
+    <TextView
+        android:id="@+id/compSolve1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="68dp"
+        android:text="Solve"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/imagen"
+        app:layout_constraintTop_toBottomOf="@+id/compName" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="82dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_uyahriubqicjpagb7ll7zknl2kpn015j4lsahdk5ddiypmgfxhdn3etk2ej5mss_2jm_5uj_uc74eiabbojogqp"
+        tools:srcCompat="@drawable/_uyahriubqicjpagb7ll7zknl2kpn015j4lsahdk5ddiypmgfxhdn3etk2ej5mss_2jm_5uj_uc74eiabbojogqp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
